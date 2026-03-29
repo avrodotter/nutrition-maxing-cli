@@ -1,21 +1,13 @@
 {
-  "name": "beon-mcp",
+  "name": "beon-avro",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
-  "bin": {
-    "beon-mcp": "./index.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.28.0",
-    "@notionhq/client": "^5.15.0",
-    "zod": "^4.3.6"
-  }
+  "packageManager": "pnpm@10.33.0"
 }
