@@ -1,13 +1,9 @@
-#!/bin/bash
-# Setup script for Beon CLI
-
 set -e
 
-echo "🚀 Setting up Beon CLI..."
+echo "🚀 Setting up Nutrition-maxing CLI..."
 
-# Install dependencies
+# Install dependencies (run from project root)
 echo "📦 Installing dependencies..."
-cd /home/avrodotter/dev/beon-avro
 pnpm install
 
 # Build
@@ -25,11 +21,13 @@ if command -v npm &> /dev/null; then
 fi
 
 echo ""
-echo "✅ Beon CLI is ready!"
+echo "✅ Nutrition-maxing CLI is ready!"
 echo ""
 echo "Usage:"
-echo "  Interactive mode:  beon"
-echo "  One-off command:   beon \"I did 40 pushups\""
+echo "  Interactive mode:  notion"
+echo "  One-off command:   notion \"I ate 3 eggs and toast\""
 echo ""
-echo "Don't forget to add GROQ_API_KEY to your .env file!"
+echo "Don't forget to set these environment variables in your .env file:"
+echo "  - GROQ_API_KEY (from https://console.groq.com/)"
+echo "  - NOTION_API_KEY (from https://www.notion.so/my-integrations)"
 echo ""

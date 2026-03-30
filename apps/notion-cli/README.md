@@ -69,14 +69,17 @@ Print to user + stay in REPL
 ### 1. Quick Setup
 
 ```bash
-cd /home/avrodotter/dev/beon-avro/apps/notion-cli
+# Clone and navigate to the project
+git clone <your-repo-url> nutrition-maxing-cli
+cd nutrition-maxing-cli/apps/notion-cli
 bash setup.sh
 ```
 
 Or manual setup:
 
 ```bash
-cd /home/avrodotter/dev/beon-avro
+# From project root
+cd nutrition-maxing-cli
 pnpm install
 cd apps/notion-cli
 pnpm build
