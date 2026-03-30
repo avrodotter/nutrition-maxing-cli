@@ -1,4 +1,4 @@
-# Beon CLI - AI Life Coach
+# Nutrition-maxing CLI - AI Nutrition logger
 
 An agentic CLI that uses Groq to orchestrate MCP tools. Works just like Claude Code - start with `beon` and get an interactive AI assistant with mascot!
 
@@ -18,25 +18,25 @@ Just type `beon` with no arguments to start the interactive REPL:
 
 ```
   ╔══||════════════════════════════════╗
-  ║  Notion CLI                        ║
-  ║____________________________________║
+  ║                                    ║
+  ║  CLI for food logging on Notion    ║  
   ║     ____  ____  ____  ____         ║
   ║    /\   \/\   \/\   \/\   \        ║
   ║   /  \___\ \___\ \___\ \___\       ║
   ║   \  /   / /   / /   / /   /       ║
   ║    \/___/\/___/\/___/\/___/        ║
   ║                                    ║
-  ║   W e l c o m e   t o   B e o n    ║       
+  ║   N u t r i t i o n   m a x i n g  ║
   ║                                    ║
-  ║   You are not your grand plans.    ║
-  ║   You are your daily patterns.     ║
+  ║   I only consume                   ║
+  ║   what benefits my body            ║
   ║                                    ║
   ╚════════════════════════════════════╝
+
   Type your natural language command
   Examples:
-    > I did 40 pushups
-    > Log my meditation session
-    > Show my tasks today
+    > I ate 200ml milk on breakfast
+    > Add 2 apples as morning snacks
     > exit (to quit)
 
   >
@@ -140,18 +140,19 @@ npm link
 $ beon
 
 ╔══||════════════════════════════════╗
-║  Notion CLI                        ║
+║                                    ║
+║  CLI for food logging on Notion    ║
 ║____________________________________║
 ║     ____  ____  ____  ____         ║
-║    /\\   \\/\\   \\/\\   \\/\\   \\        ║
-║   /  \\___\\ \\___\\ \\___\\ \\___\\       ║
-║   \\  /   / /   / /   / /   /       ║
-║    \\/___/\\/___/\\/___/\\/___/        ║
+║    /\   \/\   \/\   \/\   \        ║
+║   /  \___\ \___\ \___\ \___\       ║
+║   \  /   / /   / /   / /   /       ║
+║    \/___/\/___/\/___/\/___/        ║
 ║                                    ║
-║   W e l c o m e   t o   B e o n    ║
+║   N u t r i t i o n   m a x i n g  ║
 ║                                    ║
-║   You are not your grand plans.    ║
-║   You are your daily patterns.     ║
+║   I only consume                   ║
+║   what benefits my body            ║
 ║                                    ║
 ╚════════════════════════════════════╝
 

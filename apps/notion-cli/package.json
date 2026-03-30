@@ -4,7 +4,7 @@
   "type": "module",
   "main": "dist/cli.js",
   "bin": {
-    "beon": "dist/cli.js"
+    "notion": "dist/cli.js"
   },
   "scripts": {
     "dev": "NODE_NO_WARNINGS=1 ts-node src/cli.ts",

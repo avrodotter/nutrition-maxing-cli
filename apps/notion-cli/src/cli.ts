@@ -49,7 +49,7 @@ async function processMessage(
     // Find MCP server
     const mcpServerPath = path.resolve(
       __dirname,
-      "../../beon-mcp/index.js"
+      "../../nutrition-mcp/index.js"
     );
 
     // Connect to MCP server
@@ -67,7 +67,7 @@ async function processMessage(
     // Cleanup
     mcpClient.disconnect();
   } catch (error) {
-    console.error("❌ Error:", (error as Error).message);
+    console.error("Error:", (error as Error).message);
     process.exit(1);
   }
 }
@@ -78,8 +78,8 @@ async function main() {
   let actionCalled = false;
 
   program
-    .name("beon")
-    .description("Beon CLI - AI Life Coach")
+    .name("notion")
+    .description("Notion CLI - AI Life Coach")
     .version("1.0.0")
     .argument("[message...]", "Natural language command (optional)")
     .action(async (messageArgs: string[]) => {
@@ -88,7 +88,7 @@ async function main() {
         // Validate API key
         const apiKey = process.env.GROQ_API_KEY;
         if (!apiKey) {
-          console.error("❌ Error: GROQ_API_KEY not set.");
+          console.error("Error: GROQ_API_KEY not set.");
           console.error("\nPlease create a .env file in one of these locations:");
           console.error("  1. ~/.beon/.env (recommended)");
           console.error("  2. ~/.env");
@@ -101,7 +101,7 @@ async function main() {
 
         const mcpServerPath = path.resolve(
           __dirname,
-          "../../beon-mcp/index.js"
+          "../../nutrition-mcp/index.js"
         );
 
         if (messageArgs.length === 0) {
@@ -123,7 +123,7 @@ async function main() {
           process.exit(0);
         }
       } catch (error) {
-        console.error("❌ Error:", (error as Error).message);
+        console.error("Error:", (error as Error).message);
         process.exit(1);
       }
     });

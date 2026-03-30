@@ -1,10 +1,7 @@
-/**
- * Beon Mascot - ASCII art display
- */
-
 export const BEON_MASCOT = `
 ╔══||════════════════════════════════╗
-║  Notion CLI                        ║
+║                                    ║
+║  CLI for food logging on Notion    ║
 ║____________________________________║
 ║     ____  ____  ____  ____         ║
 ║    /\\   \\/\\   \\/\\   \\/\\   \\        ║
@@ -12,10 +9,10 @@ export const BEON_MASCOT = `
 ║   \\  /   / /   / /   / /   /       ║
 ║    \\/___/\\/___/\\/___/\\/___/        ║
 ║                                    ║
-║   W e l c o m e   t o   B e o n    ║
+║   N u t r i t i o n   m a x i n g  ║
 ║                                    ║
-║   You are not your grand plans.    ║
-║   You are your daily patterns.     ║
+║   I only consume                   ║
+║   what benefits my body            ║
 ║                                    ║
 ╚════════════════════════════════════╝
 `;
