@@ -1,6 +1,6 @@
 # Nutrition-maxing CLI - Nutrition Logging Summary
 
-![How it looks](assets/nutrition.png\)
+![How it looks](assets/nutrition.png)
 
 ## What Was Built
 
